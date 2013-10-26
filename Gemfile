@@ -23,4 +23,4 @@ end
 #Added by Jon
 gem 'haml'
 gem 'protected_attributes'
-gem 'pg'
+gem 'pg', '0.16.0'
