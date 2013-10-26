@@ -20,4 +20,7 @@ group :test do
   gem 'capybara', "2.0.2"
 end
 
+#Added by Jon
 gem 'haml'
+gem 'protected_attributes'
+gem 'pg'
