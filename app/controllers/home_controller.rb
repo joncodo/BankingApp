@@ -8,7 +8,7 @@ class HomeController < ApplicationController
   end
 
   def create_user
-    puts params.inspect
+    User.create(first_name: params[:first_name], last_name: params[:last_name], email: params[:email], password: params[:password])
     render 'dashboard/dashboard'
   end
 end

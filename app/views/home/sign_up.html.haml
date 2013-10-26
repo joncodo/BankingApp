@@ -1,21 +1,26 @@
-%h1
-  Sign Up!
-%h3
-  Email:
-  %input{type: 'text'}
-%h3
-  Confirm Email:
-  %input{type: 'text'}
-%h3
-  First Name:
-  %input{type: 'text'}
-%h3
-  Last Name:
-  %input{type: 'text'}
-%h3
-  Password:
-  %input{type: 'text'}
-%h3
-  Confirm Password:
-  %input{type: 'text'}
-%input{type: 'submit', action_name: 'create_user'}
+= form_tag :create_user, :method => :post do
+  %h1
+    Sign Up!
+  %h3
+    Email:
+    %input{type: 'text', name: 'email'}
+  %h3
+    Confirm Email:
+    %input{type: 'text', name: 'email_confirm'}
+  %h3
+    First Name:
+    %input{type: 'text', name: 'first_name'}
+  %h3
+    Last Name:
+    %input{type: 'text', name: 'last_name'}
+  %h3
+    Password:
+    %input{type: 'text', name: 'password'}
+  %h3
+    Confirm Password:
+    %input{type: 'text', name: 'password_confirm'}
+  %input{type: 'submit'}
+
+
+
+
