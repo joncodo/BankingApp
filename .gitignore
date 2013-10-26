@@ -1,0 +1,8 @@
+
+*.csv
+*.sql
+*.sqlite
+workspace.xml
+/tmp/cache/assets/development/sprockets
+*.log
+*.pid
