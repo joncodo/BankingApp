@@ -1,2 +1,18 @@
-%h1
-  Home
+= form_tag :create_user, :method => :post do
+  %h1
+    Budgeting to make Bank
+    %h5
+      'cause it's not how much you earn, it's how much you save!
+  %div.bob
+    %div.box1
+      %input{type: 'submit', name: 'new_email', class: 'sign-up', value: 'sign up!'}
+= form_tag :dashboard, :method => :post do
+  %div.box2
+    %input{type: 'text', name: 'email', placeholder: 'email'}
+    %input{type: 'text', name: 'password', placeholder: 'password'}
+    %input{type: 'submit', value: 'see my dollars'}
+
+%div.video
+  <iframe width="420" height="345"
+  src="http://www.youtube.com/embed/XGSy3_Czz8k">
+  </iframe>

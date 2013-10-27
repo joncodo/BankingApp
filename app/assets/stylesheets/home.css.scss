@@ -1,0 +1,40 @@
+body{
+  background: rgba(25, 100, 25, .85);
+}
+h1,h5 {
+  color: black;
+  text-align: center;
+}
+h1{
+  margin: 3% 0 0 0;
+  text-shadow: -1px -1px silver;
+}
+h5{
+  color: black;
+  margin: -0.1% auto 10% auto;
+}
+.bob,.video  {
+  margin: auto;
+  border: solid 1px red;
+  width: 35%;
+  }
+.box1,.box2{
+  border: solid 10px gray;
+  max-width: 500px;
+  margin: auto;
+  width:45%;
+}
+.box1{
+  float: left;
+}
+.box2{
+  float: right;
+}
+.box2 input{
+  display: block;
+}
+.video{
+  border: solid 5px black;
+  margin: 12% auto auto auto;
+  background: rgba(0, 100, 0, 1);
+  }
