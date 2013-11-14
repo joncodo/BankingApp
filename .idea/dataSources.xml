@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="2386607047">
+    <data-source source="LOCAL" name="Rails BankingApp: development" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="3f398477-7f77-484a-8631-20cde8e5afd5">
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/BankingApp</jdbc-url>
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/postgresql-driver-license.txt</url>
+        </library>
+        <library>
+          <url>jar://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/postgresql-9.2-1002.jdbc4.jar!/</url>
+        </library>
+      </libraries>
+    </data-source>
+  </component>
+</project>
+
