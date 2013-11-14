@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 gem 'rails', '4.0.0.rc1'
-gem 'sqlite3'
+
 
 group :assets do
   gem 'sprockets-rails', '~> 2.0.0.rc4'
@@ -21,6 +21,9 @@ group :test do
 end
 
 #Added by Jon
-gem 'haml'
+gem 'haml' #markup language replaces .erb
 gem 'protected_attributes'
-gem 'pg', '0.16.0'
+gem 'pg' #required for pgadmin
+gem 'better_errors' #html error page that is better than rails
+gem 'binding_of_caller' #console in error page
+gem 'debug_inspector', '0.0.2' #required for rake tasks

@@ -6,3 +6,4 @@ workspace.xml
 /tmp/cache/assets/development/sprockets
 *.log
 *.pid
+schema.rb
